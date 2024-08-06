@@ -100,7 +100,7 @@ body {
     height: 17%;
     background-color: black;
     top: 45%;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 
 .eye.left {
@@ -117,7 +117,7 @@ body {
     background-color: var(--penguin-face);
     top: 25%;
     left: -23%;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 
 .blush {
@@ -125,7 +125,7 @@ body {
     height: 10%;
     background-color: pink;
     top: 65%;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 
 .blush.left {
@@ -139,7 +139,7 @@ body {
 .beak {
     height: 10%;
     background-color: var(--penguin-picorna);
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 
 .beak.top {
@@ -199,7 +199,18 @@ body {
     height: 30%;
     background-color: var(--penguin-picorna);
     top: 85%;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.foot.left {
+    left: 25%;
+    transform: rotate(80deg);
+}
+
+.foot.right {
+    right: 25%;
+    transform: rotate(-80deg);
 }
 
 .ground {
